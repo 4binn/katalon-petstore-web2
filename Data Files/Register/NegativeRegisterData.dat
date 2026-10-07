@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>NegativeRegisterData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8b2ed0e0-513d-4846-9f75-bf460ffa0b8f</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://localhost:3306/jpetsstoretestdata</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password></password>
+   <query>SELECT user_id, new_password, repeat_password, first_name, last_name, email, phone, address1, city, state, zip, country, expected_error_message 
+FROM register_negative_data;</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>root</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
